@@ -6,16 +6,16 @@
     "author": "HJangra1",
     "options_page": "index.html",
     "icons": {
-        "16": "./assets/snow.png",
-        "48": "./assets/snow.png",
-        "128": "./assets/snow.png"
+        "16": "./snow.png",
+        "48": "./snow.png",
+        "128": "./snow.png"
     },
     "action": {
         "default_popup": "index.html",
         "default_icon": {
-            "16": "./assets/snow.png",
-            "48": "./assets/snow.png",
-            "128": "./assets/snow.png"
+            "16": "./snow.png",
+            "48": "./snow.png",
+            "128": "./snow.png"
         }
     },
     "host_permissions": [
