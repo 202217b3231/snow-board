@@ -1,0 +1,32 @@
+{
+    "manifest_version": 3,
+    "name": "Snow Dashboard",
+    "version": "1.0",
+    "description": "Reports Dashboard",
+    "author": "HJangra1",
+    "options_page": "index.html",
+    "icons": {
+        "16": "./assets/snow.png",
+        "48": "./assets/snow.png",
+        "128": "./assets/snow.png"
+    },
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": {
+            "16": "./assets/snow.png",
+            "48": "./assets/snow.png",
+            "128": "./assets/snow.png"
+        }
+    },
+    "host_permissions": [
+        "https://*.service-now.com/*",
+        "https://jira.jnj.com/*"
+    ],
+    "permissions": [
+        "activeTab",
+        "storage"
+    ],
+    "content_security_policy": {
+        "extension_pages": "script-src 'self'; object-src 'self'; connect-src https://*.service-now.com/ https://jira.jnj.com/"
+    }
+}
