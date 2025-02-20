@@ -13810,7 +13810,7 @@ function Vh({
     )
   );
 }
-const wh = "./snow.png";
+const wh = "snow.png";
 function Kh() {
   const [s, S] = le.useState([]),
     [O, c] = le.useState(!1),
